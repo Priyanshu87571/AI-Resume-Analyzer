@@ -224,13 +224,14 @@ npm run dev
 
 ## Home Page
 
-> Add Screenshot
+<img width="1012" height="827" alt="image" src="https://github.com/user-attachments/assets/e16ec48d-202d-4be4-99aa-3ea8d4713fad" />
 
 ---
 
 ## Login Page
 
-> Add Screenshot
+<img width="1693" height="787" alt="Screenshot 2026-07-20 154138" src="https://github.com/user-attachments/assets/a72babee-01c2-4f68-b965-f7c3ed20781b" />
+
 
 ---
 
