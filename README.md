@@ -241,17 +241,6 @@ npm run dev
 
 ---
 
-## Resume Analysis
-
-> Add Screenshot
-
----
-
-## Interview Report
-
-> Add Screenshot
-
----
 
 # 🔄 Application Workflow
 
