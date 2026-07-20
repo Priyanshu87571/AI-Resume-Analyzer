@@ -402,7 +402,7 @@ This project is licensed under the **MIT License**.
 
 **Priyanshu Raj**
 
-📧 Email: your-email@example.com
+📧 Email: priyanshu875717@gmail.com
 
 💼 LinkedIn: https://www.linkedin.com/in/priyanshu-raj-162763306/
 
