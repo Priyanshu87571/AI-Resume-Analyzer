@@ -237,7 +237,7 @@ npm run dev
 
 ## Dashboard
 
-> Add Screenshot
+<img width="1002" height="832" alt="image" src="https://github.com/user-attachments/assets/846df711-bd87-4a81-827d-15d982a5a2f5" />
 
 ---
 
