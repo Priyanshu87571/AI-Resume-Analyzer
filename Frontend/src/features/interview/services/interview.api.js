@@ -3,57 +3,139 @@ import axios from "axios";
 const api = axios.create({
     baseURL: "http://localhost:3000",
     withCredentials: true,
-})
-
+});
 
 /**
- * @description Service to generate interview report based on user self description, resume and job description.
+ * Generate Interview Report
  */
-export const generateInterviewReport = async ({ jobDescription, selfDescription, resumeFile }) => {
+export const generateInterviewReport = async ({
+    jobDescription,
+    selfDescription,
+    resumeFile,
+}) => {
 
-    const formData = new FormData()
-    formData.append("jobDescription", jobDescription)
-    formData.append("selfDescription", selfDescription)
-    formData.append("resume", resumeFile)
+    console.log("========== GENERATE REPORT ==========");
+    console.log("Job Description:", jobDescription);
+    console.log("Self Description:", selfDescription);
+    console.log("Resume File:", resumeFile);
 
-    const response = await api.post("/api/interview/", formData, {
-        headers: {
-            "Content-Type": "multipart/form-data"
+    const formData = new FormData();
+
+    formData.append("jobDescription", jobDescription);
+    formData.append("selfDescription", selfDescription);
+
+    // Only append resume if user selected one
+    if (resumeFile) {
+        formData.append("resume", resumeFile);
+    }
+
+    try {
+
+        console.log("Sending POST request to:");
+        console.log("http://localhost:3000/api/interview/");
+
+        const response = await api.post(
+            "/api/interview/",
+            formData,
+            {
+                headers: {
+                    "Content-Type": "multipart/form-data",
+                },
+            }
+        );
+
+        console.log("SUCCESS RESPONSE:");
+        console.log(response);
+
+        return response.data;
+
+    } catch (error) {
+
+        console.error("========== AXIOS ERROR ==========");
+
+        if (error.response) {
+            console.error("Status:", error.response.status);
+            console.error("Response:", error.response.data);
+        } else if (error.request) {
+            console.error("No response received from server.");
+            console.error(error.request);
+        } else {
+            console.error("Unexpected Error:", error.message);
         }
-    })
 
-    return response.data
+        console.error(error);
 
-}
+        throw error;
+    }
+};
 
 
 /**
- * @description Service to get interview report by interviewId.
+ * Get Interview Report By ID
  */
 export const getInterviewReportById = async (interviewId) => {
-    const response = await api.get(`/api/interview/report/${interviewId}`)
 
-    return response.data
-}
+    try {
+
+        const response = await api.get(
+            `/api/interview/report/${interviewId}`
+        );
+
+        return response.data;
+
+    } catch (error) {
+
+        console.error("Get Report Error:", error);
+
+        throw error;
+    }
+
+};
 
 
 /**
- * @description Service to get all interview reports of logged in user.
+ * Get All Interview Reports
  */
 export const getAllInterviewReports = async () => {
-    const response = await api.get("/api/interview/")
 
-    return response.data
-}
+    try {
+
+        const response = await api.get("/api/interview/");
+
+        return response.data;
+
+    } catch (error) {
+
+        console.error("Get Reports Error:", error);
+
+        throw error;
+    }
+
+};
 
 
 /**
- * @description Service to generate resume pdf based on user self description, resume content and job description.
+ * Generate Resume PDF
  */
 export const generateResumePdf = async ({ interviewReportId }) => {
-    const response = await api.post(`/api/interview/resume/pdf/${interviewReportId}`, null, {
-        responseType: "blob"
-    })
 
-    return response.data
-}
+    try {
+
+        const response = await api.post(
+            `/api/interview/resume/pdf/${interviewReportId}`,
+            null,
+            {
+                responseType: "blob",
+            }
+        );
+
+        return response.data;
+
+    } catch (error) {
+
+        console.error("Resume PDF Error:", error);
+
+        throw error;
+    }
+
+};

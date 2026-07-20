@@ -16,11 +16,31 @@ export const router = createBrowserRouter([
         element: <Register />
     },
     {
-        path: "/",
-        element: <Protected><Home /></Protected>
-    },
-    {
-        path:"/interview/:interviewId",
-        element: <Protected><Interview /></Protected>
-    }
+    path: "/",
+    element: <Protected><Home /></Protected>
+},
+{
+    path: "/interview/:interviewId",
+    element: <Protected><Interview /></Protected>
+}
 ])
+/**
+ * {
+    path: "/",
+    element: <Protected><Home /></Protected>
+},
+{
+    path: "/interview/:interviewId",
+    element: <Protected><Interview /></Protected>
+}
+ */
+
+
+/**{
+    path: "/",
+    element: <Home />
+},
+{
+    path: "/interview/:interviewId",
+    element: <Interview />
+} */
