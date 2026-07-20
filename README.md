@@ -404,7 +404,7 @@ This project is licensed under the **MIT License**.
 
 📧 Email: your-email@example.com
 
-💼 LinkedIn: https://linkedin.com/in/your-profile
+💼 LinkedIn: https://www.linkedin.com/in/priyanshu-raj-162763306/
 
 🐙 GitHub: https://github.com/Priyanshu87571
 
