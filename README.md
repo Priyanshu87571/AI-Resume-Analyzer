@@ -195,7 +195,7 @@ GOOGLE_GENAI_API_KEY=YOUR_API_KEY
 Start backend
 
 ```bash
-npm run dev
+npm run dev or node server.js
 ```
 
 ---
