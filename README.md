@@ -1,4 +1,4 @@
-# 🚀 AI Resume Analyzer
+# AI Resume Analyzer
 
 > An AI-powered Resume Analyzer that evaluates resumes against job descriptions, calculates ATS compatibility, identifies skill gaps, provides personalized improvement suggestions, and generates interview questions using Google Gemini AI.
 
