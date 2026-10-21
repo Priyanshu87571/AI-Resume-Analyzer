@@ -68,7 +68,7 @@ The application uses **Google Gemini AI** to generate personalized resume analys
 
 ---
 
-### 🤖 AI Interview Preparation
+### AI Interview Preparation
 
 Generate AI-powered interview questions including:
 
