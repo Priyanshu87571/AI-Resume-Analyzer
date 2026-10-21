@@ -323,7 +323,7 @@ Authenticated User
 
 ---
 
-# 💡 Future Improvements
+## Future Improvements
 
 - Resume Templates
 - AI Cover Letter Generator
