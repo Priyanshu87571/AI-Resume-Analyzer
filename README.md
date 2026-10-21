@@ -12,7 +12,7 @@
 
 ---
 
-# 📌 Overview
+## Overview
 
 AI Resume Analyzer is a full-stack web application that helps job seekers optimize their resumes using Artificial Intelligence.
 
