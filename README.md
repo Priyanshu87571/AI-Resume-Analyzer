@@ -338,7 +338,7 @@ Authenticated User
 
 ---
 
-# 🌟 Why This Project?
+## Why This Project?
 
 This project demonstrates:
 
