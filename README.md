@@ -90,7 +90,7 @@ Generate AI-powered interview questions including:
 
 ---
 
-# 🛠 Tech Stack
+## Tech Stack
 
 ## Frontend
 
