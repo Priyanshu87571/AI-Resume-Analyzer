@@ -158,7 +158,7 @@ AI-Resume-Analyzer/
 
 ## Installation
 
-## Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/AI-Resume-Analyzer.git
@@ -170,7 +170,7 @@ cd AI-Resume-Analyzer
 
 ---
 
-## Backend Setup
+### Backend Setup
 
 ```
 cd Backend
