@@ -300,7 +300,7 @@ Authenticated User
 
 ---
 
-# 📦 API Endpoints
+## API Endpoints
 
 ## Authentication
 
