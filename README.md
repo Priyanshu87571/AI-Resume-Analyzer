@@ -44,7 +44,7 @@ The application uses **Google Gemini AI** to generate personalized resume analys
 
 ---
 
-### 📄 Resume Analysis
+### Resume Analysis
 
 - Upload Resume (PDF)
 - Extract Resume Content
