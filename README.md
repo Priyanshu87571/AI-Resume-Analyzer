@@ -222,20 +222,20 @@ npm run dev
 
 ## Screenshots
 
-## Home Page
+### Home Page
 
 <img width="1012" height="827" alt="image" src="https://github.com/user-attachments/assets/e16ec48d-202d-4be4-99aa-3ea8d4713fad" />
 
 ---
 
-## Login Page
+### Login Page
 
 <img width="1693" height="787" alt="Screenshot 2026-07-20 154138" src="https://github.com/user-attachments/assets/a72babee-01c2-4f68-b965-f7c3ed20781b" />
 
 
 ---
 
-## Dashboard
+### Dashboard
 
 <img width="1002" height="832" alt="image" src="https://github.com/user-attachments/assets/846df711-bd87-4a81-827d-15d982a5a2f5" />
 
