@@ -280,7 +280,7 @@ Final Report
 
 ---
 
-# 🔐 Authentication Flow
+## Authentication Flow
 
 ```
 User Login
