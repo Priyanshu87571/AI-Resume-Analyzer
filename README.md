@@ -80,7 +80,7 @@ Generate AI-powered interview questions including:
 
 ---
 
-### 📊 Dashboard
+### Dashboard
 
 - Previous Reports
 - Interview Reports
