@@ -34,7 +34,7 @@ The application uses **Google Gemini AI** to generate personalized resume analys
 
 ## Features
 
-### 👤 Authentication
+### Authentication
 
 - User Registration
 - Secure Login
