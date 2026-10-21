@@ -156,7 +156,7 @@ AI-Resume-Analyzer/
 
 ---
 
-# ⚙ Installation
+## Installation
 
 ## Clone Repository
 
