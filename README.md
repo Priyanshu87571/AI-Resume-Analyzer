@@ -121,7 +121,7 @@ Generate AI-powered interview questions including:
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
 ```
 AI-Resume-Analyzer/
