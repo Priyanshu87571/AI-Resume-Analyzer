@@ -57,7 +57,7 @@ The application uses **Google Gemini AI** to generate personalized resume analys
 
 ---
 
-### 💼 Job Matching
+### Job Matching
 
 - Job Description Input
 - Resume vs Job Description Comparison
