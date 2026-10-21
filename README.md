@@ -354,7 +354,7 @@ This project demonstrates:
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Contributions are welcome!
 
