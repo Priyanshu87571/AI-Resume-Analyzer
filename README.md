@@ -242,7 +242,7 @@ npm run dev
 ---
 
 
-# 🔄 Application Workflow
+# Application Workflow
 
 ```
 User Registration
